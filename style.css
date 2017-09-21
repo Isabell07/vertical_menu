@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+#nav li{
+    list-style:none;
+    height:39px;
+    padding:3px;
+    width:40px;
+}
+
+#nav span{
+    width:0;
+    left:38px;
+    position:absolute;
+    overflow:hidden;
+
+    font-family:'Myriad Pro', sans-serif;
+    font-weight:bold;
+    line-height:39px;
+    transition: 0.5s;
+}
+
+#nav a{
+    background: url('menu.jpg');
+    height:39px;
+    width:38px;
+    display:block;
+    position:relative;
+}
+
+
+#nav a:hover span{
+    width:100px;
+    padding:0 20px;
+    overflow:visible;
+}
+
+
+#nav .menu1:hover {
+    background: url('menu.jpg') no-repeat 0 -39px;
+}
+#nav .menu1 span{
+    background-color:#7da315;
+    color:#3d4f0c;
+}
+
+#nav .menu2 {
+    background-position:-38px -39px;
+}
+ .menu2:hover {
+    background-position:-38px -39px;
+}
+#nav .menu2 span{
+    background-color:#1e8bb4;
+    color:#223a44;
+}
+
+
+
+#nav .menu3 {
+    background-position:-76px 0;
+}
+.menu3:hover {
+    background-position:-76px -39px;
+}
+.menu3 span{
+    background-color:#c86c1f;
+    color:#5a3517;
+}
+
+
+
+#nav .menu4 {
+    background-position:-114px 0;
+}
+.menu4:hover{
+    background-position:-114px -39px;
+}
+.menu4 span{
+    background-color:#d0a525;
+    color:#604e18;
+}
+
+
+#nav .menu5 {
+    background-position:-152px 0;
+}
+
+.menu5:hover {
+    background-position:-152px -39px;
+}
+.menu5 span{
+    background-color:#af1e83;
+    color:#460f35;
+}
+
+
+
